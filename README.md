@@ -2,7 +2,7 @@
 
 Ce programme permet de chiffrer avec le chiffrement de Hill un suite de caracteres. 
 A noter :
-Les espaces sont retirés et pour les mots comportant un nombre impair de lettres, le caractere "_" est ajouté pour permettre un chiffrement plus facile. le caractere "_" est référencé dans encodingChar tel que encodingChar[26] = '_'.
+Les espaces sont retirés et pour les mots comportant un nombre impair de lettres, le caractere "\_" est ajouté pour permettre un chiffrement plus facile. le caractere "\_" est référencé dans encodingChar tel que encodingChar[26] = '_'.
 Ainsi on fait les operations modulo 27 pour ajouter ce caractere. On utilise donc la meme methode de calcul mais l'alphabet est modifié.
 
 
